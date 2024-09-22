@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-BR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem dos Sonhos</title>
+</head>
+<body>
+    <section>
+        <h1>Viagem dos Sonhos</h1>
+        <h2>Faça a sua Reserva:</h2>
+        <form method="GET" action="">
+            <fieldset>
+                <legend>Dados Pessoais:</legend>
+                <label>Nome:</label><br>
+                <input type="text" required name="nome"><br><br>
+
+                <label>E-mail:</label><br>  
+                <input type="email" required name="email"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Serviços desejados</legend>
+                <label>
+                    <br><input type="checkbox" name="passagens" value="passagens">Compra de passagens
+                </label>
+                <label>
+                    <br><input type="checkbox" name="hospedagem" value="hospedagem">Reserva de hospedagem
+                </label>
+                <label>
+                    <br><input type="checkbox" name="veículos" value="veículos">Reserva de veículos
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Escolha a forma de pagamento</legend>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Cartão de crédito">Cartão de crédito
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Boleto">Boleto Bancário
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Pix">Pix
+                </label>
+
+            </fieldset>
+            <label>Informações adicionais:</label><br>
+            <textarea rows="5" name="Comentário"></textarea><br><br>
+
+            <button>Salvar</button>
+        </form>    
+    </section>
+</body>
+</html>

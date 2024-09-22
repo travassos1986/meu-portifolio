@@ -1,0 +1,48 @@
+header p{
+    color: #afffff;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 50px;
+    color: #303030;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+}
+
+table{
+    width: 100%;
+}
+
+table td{
+    color: #303030;
+    padding: 5px;
+}
+
+table tr:nth-child(even){
+    background-color: #e9e9e9;
+}
+
+table tr:nth-child(odd){
+    background-color: #bdbdbd;
+}
+
+table thead th{
+    background-color: #f4511e;
+    color: white;
+}
+
+.carousel-caption h5{
+    font-size: 80px;
+    color: #ffc107;
+    text-shadow: 2px 2px 2px black;
+}
+
